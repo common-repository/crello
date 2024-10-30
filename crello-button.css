@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Geometria Regular';
+    src: url('fonts/Geometria.eot');
+    url('fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Geometria.woff') format('woff'),
+    url('fonts/Geometria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#insert-crello-media {
+    width: 138px;
+    height: 28px;
+    background-color: #51a6ea;
+    border: 1px solid #3984c1;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+#insert-crello-media .text {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Geometria Regular;
+    position: relative;
+    top: -2px;
+}
+#insert-crello-media .logo {
+    background: url(Crello_Logo_White.svg);
+    display: inline-block;
+    width: 61px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+    margin-left: 5px;
+}
